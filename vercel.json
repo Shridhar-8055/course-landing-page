@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/course-thankyou", "destination": "/course-thankyou.html" }
+  ]
+}

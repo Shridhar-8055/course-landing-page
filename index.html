@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Powered Algo Trading Mastery Course - Build Trading Algos in Minutes</title>
+  <meta name="description" content="Master algo trading with AI. Build profitable Expert Advisors using AI. 11 modules, 70+ lessons, 100 EA prompts. Lifetime access.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="course.css">
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+
+  <!-- Background Glow -->
+  <div class="bg-glow"></div>
+
+  <!-- Announcement Bar -->
+  <div class="announcement">🔥 LIMITED TIME: Enroll today and get ₹67,200 in bonuses FREE</div>
+
+  <!-- Hero (includes header) -->
+  <section class="hero">
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-inner">
+        <a href="#" class="logo">
+          <img src="QA logo.png" alt="Quantum Algo" class="logo-img">
+        </a>
+      </div>
+    </header>
+    <div class="container">
+      <div class="hero-pre">AI-POWERED ALGO TRADING MASTERY</div>
+      <h1>Build Profitable Trading Algos in <span style="color: #0052B7;">30 Minutes</span> Using AI</h1>
+      <p class="hero-sub">Master the AI-powered method that's helping 5,000+ students create Expert Advisors—without writing a single line of code</p>
+
+      <div class="trust-badges">
+        <span class="trust-badge">✓ 5,000+ Active Students</span>
+        <span class="trust-badge">✓ 100+ Ready-to-Use EA Prompts</span>
+        <span class="trust-badge">✓ Lifetime Access + Updates</span>
+      </div>
+
+      <div class="video-placeholder">
+        <div class="play-btn">▶</div>
+        <p>Watch: I Build a ₹47K Trading Algo in 17 Minutes</p>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="#" class="btn-primary" onclick="openCourseRegister('onetime');return false;">ENROLL NOW - ₹17,999</a>
+        <a href="#curriculum" class="btn-secondary">See Full Curriculum ↓</a>
+      </div>
+      <div class="guarantee-badge">🔒 30-Day Completion Guarantee</div>
+    </div>
+  </section>
+
+  <!-- Social Proof Ticker -->
+  <div class="ticker-wrap">
+    <div class="ticker" id="ticker">
+      <span>👥 5,247 students enrolled</span>
+      <span>⭐ 4.8/5 rating (1,247 reviews)</span>
+      <span>🎓 Rajesh from Mumbai just enrolled</span>
+      <span>🎓 Priya from Bengaluru just enrolled</span>
+      <span>👥 5,247 students enrolled</span>
+      <span>⭐ 4.8/5 rating (1,247 reviews)</span>
+      <span>🎓 Rajesh from Mumbai just enrolled</span>
+      <span>🎓 Priya from Bengaluru just enrolled</span>
+    </div>
+  </div>
+
+  <!-- Problem Section -->
+  <section class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">The Problem With Traditional Algo Trading</h2>
+      <div class="problems-grid">
+        <div class="problem-card">
+          <div class="p-icon">❌</div>
+          <h3>Hiring Developers Costs ₹5-10 Lakh</h3>
+          <p>And takes 3-6 months per EA. Most freelancers deliver buggy code.</p>
+        </div>
+        <div class="problem-card">
+          <div class="p-icon">❌</div>
+          <h3>Learning to Code Takes Years</h3>
+          <p>MQL5, Python, Pine Script... where do you even start?</p>
+        </div>
+        <div class="problem-card">
+          <div class="p-icon">❌</div>
+          <h3>Pre-Built EAs Don't Match Your Strategy</h3>
+          <p>Generic bots rarely fit your trading style or risk tolerance.</p>
+        </div>
+        <div class="problem-card">
+          <div class="p-icon">❌</div>
+          <h3>Manual Trading is Exhausting</h3>
+          <p>You can't watch charts 24/7. Emotions destroy your edge.</p>
+        </div>
+      </div>
+      <div class="better-way">There's a better way...</div>
+    </div>
+  </section>
+
+  <!-- Solution Section -->
+  <section class="section section-alt fade-in">
+    <div class="container">
+      <h2 class="section-title">The AI-Powered Solution</h2>
+      <p class="section-sub">What if you could describe your strategy in plain English and get working EA code in 60 seconds?</p>
+      <div class="solution-steps">
+        <div class="sol-step">
+          <div class="sol-icon">💬</div>
+          <h3>1. Describe Your Strategy</h3>
+          <p>Type a simple prompt: "Buy when RSI drops below 30, sell when it rises above 70"</p>
+        </div>
+        <div class="sol-step">
+          <div class="sol-icon">🤖</div>
+          <h3>2. AI Generates Code</h3>
+          <p>AI writes complete MQL5/Pine Script code in seconds. Copy and paste.</p>
+        </div>
+        <div class="sol-step">
+          <div class="sol-icon">📊</div>
+          <h3>3. Backtest & Deploy</h3>
+          <p>Test on 5 years of data in 5 minutes. Then deploy to VPS for 24/7 trading.</p>
+        </div>
+      </div>
+      <div class="sol-result">Build 10+ profitable EAs per week instead of per year.</div>
+    </div>
+  </section>
+
+  <!-- Curriculum -->
+  <section class="section fade-in" id="curriculum">
+    <div class="container">
+      <h2 class="section-title">Complete Course Curriculum</h2>
+      <p class="section-sub">11 Modules &bull; 70+ Lessons &bull; 20+ Hours of Training</p>
+      <div class="curriculum-list">
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">1</span><div><div>Foundations of AI Algo Trading <span class="module-badge">FREE PREVIEW</span></div><div class="module-meta">45 min &bull; 6 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>The Algo Trading Revolution (10 min)</li><li>Why AI Changes Everything (12 min)</li><li>Your First 5-Minute EA (3 min)</li></ul></div>
+        </div>
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">2</span><div><div>Prompt Engineering Mastery</div><div class="module-meta">75 min &bull; 8 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>The 7-Part Prompt Framework</li><li>Describing Entry & Exit Conditions</li><li>The Iterative Prompting Method</li></ul></div>
+        </div>
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">3</span><div><div>Building Your First Complete EA (Forex)</div><div class="module-meta">120 min &bull; 10 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>RSI Mean Reversion Strategy</li><li>Moving Average Crossover</li><li>Bollinger Bands Breakout</li></ul></div>
+        </div>
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">4</span><div><div>Crypto Trading Algos</div><div class="module-meta">110 min &bull; 9 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>Bitcoin Momentum Strategies</li><li>Altcoin Breakout Scanner</li><li>DeFi Yield Arbitrage</li></ul></div>
+        </div>
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">5</span><div><div>Indian Market Algos (Nifty, Bank Nifty)</div><div class="module-meta">105 min &bull; 8 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>Nifty Opening Range Breakout</li><li>Bank Nifty Momentum</li><li>NSE Stock Scanner</li></ul></div>
+        </div>
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">6</span><div><div>US Markets Algos (SPX, Nasdaq)</div><div class="module-meta">100 min &bull; 7 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>SPX500 VWAP Strategy</li><li>US30 Opening Range</li><li>TSLA Day Trading Algo</li></ul></div>
+        </div>
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">7</span><div><div>Commodities & Multi-Asset Strategies</div><div class="module-meta">90 min &bull; 6 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>Gold London Breakout</li><li>Oil Inventory Day Trading</li><li>Multi-Asset Portfolio</li></ul></div>
+        </div>
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">8</span><div><div>Advanced EA Features & Optimization</div><div class="module-meta">135 min &bull; 9 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>Multi-Timeframe Analysis</li><li>Dynamic Position Sizing</li><li>AI/ML Enhanced Strategies</li></ul></div>
+        </div>
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">9</span><div><div>Professional Backtesting & Validation</div><div class="module-meta">105 min &bull; 7 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>Walk-Forward Analysis</li><li>Monte Carlo Simulation</li><li>Avoiding Overfitting</li></ul></div>
+        </div>
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">10</span><div><div>VPS Deployment & 24/7 Automation</div><div class="module-meta">80 min &bull; 6 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>VPS Setup Step-by-Step</li><li>MT5 Installation & Configuration</li><li>Monitoring & Alerts</li></ul></div>
+        </div>
+        <div class="module-item">
+          <button class="module-header"><div class="m-left"><span class="module-num">11</span><div><div>Monetizing Your Algo Trading Skills</div><div class="module-meta">75 min &bull; 6 lessons</div></div></div><span class="module-icon">+</span></button>
+          <div class="module-body"><ul><li>Freelancing on Upwork ($500-5K/EA)</li><li>Selling on MQL5 Marketplace</li><li>Building an EA Development Agency</li></ul></div>
+        </div>
+      </div>
+      <div class="curriculum-stats">
+        <div class="cs-item"><div class="cs-num">11</div><div class="cs-label">Modules</div></div>
+        <div class="cs-item"><div class="cs-num">70+</div><div class="cs-label">Lessons</div></div>
+        <div class="cs-item"><div class="cs-num">20+</div><div class="cs-label">Hours</div></div>
+        <div class="cs-item"><div class="cs-num">15+</div><div class="cs-label">EAs Built</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's Included -->
+  <section class="section section-alt fade-in">
+    <div class="container">
+      <h2 class="section-title">Everything You Get When You Enroll Today</h2>
+      <div class="value-list">
+        <div class="value-item"><div class="vi-left"><span class="vi-icon">📚</span><div><div class="vi-title">Complete 11-Module Course</div><div class="vi-desc">70+ video lessons, 20+ hours of training</div></div></div><span class="vi-value">₹41,000</span></div>
+        <div class="value-item"><div class="vi-left"><span class="vi-icon">📱</span><div><div class="vi-title">Inner Circle Mobile App</div><div class="vi-desc">Learn on mobile. iOS + Android</div></div></div><span class="vi-value">Included</span></div>
+        <div class="value-item"><div class="vi-left"><span class="vi-icon">🤖</span><div><div class="vi-title">AlgoGPT AI Assistant</div><div class="vi-desc">24/7 AI trading coach. 50 questions/day</div></div></div><span class="vi-value">₹12,000/yr</span></div>
+        <div class="value-item"><div class="vi-left"><span class="vi-icon">📖</span><div><div class="vi-title">100 Ready-to-Use EA Prompts</div><div class="vi-desc">Copy-paste prompts for every market</div></div></div><span class="vi-value">₹49,700</span></div>
+        <div class="value-item"><div class="vi-left"><span class="vi-icon">💬</span><div><div class="vi-title">Private Community Access</div><div class="vi-desc">5,000+ traders. Code reviews, support</div></div></div><span class="vi-value">₹15,000/yr</span></div>
+        <div class="value-item"><div class="vi-left"><span class="vi-icon">📊</span><div><div class="vi-title">Live AI Signals (Unlimited)</div><div class="vi-desc">AI-powered trade signals across all markets</div></div></div><span class="vi-value">₹15,000/yr</span></div>
+        <div class="value-item"><div class="vi-left"><span class="vi-icon">👥</span><div><div class="vi-title">Copy Trading Platform</div><div class="vi-desc">Follow and copy 3 top-performing traders</div></div></div><span class="vi-value">₹10,000/yr</span></div>
+        <div class="value-item"><div class="vi-left"><span class="vi-icon">🎓</span><div><div class="vi-title">Monthly Live Q&A Sessions</div><div class="vi-desc">Direct access to instructors</div></div></div><span class="vi-value">₹18,000/yr</span></div>
+        <div class="value-item"><div class="vi-left"><span class="vi-icon">🎖️</span><div><div class="vi-title">Certification on Completion</div><div class="vi-desc">Verified credential for freelancing</div></div></div><span class="vi-value">₹5,000</span></div>
+        <div class="value-item"><div class="vi-left"><span class="vi-icon">🔄</span><div><div class="vi-title">Lifetime Updates</div><div class="vi-desc">All future modules and content (free)</div></div></div><span class="vi-value">Priceless</span></div>
+      </div>
+      <div class="value-total">
+        <div class="vt-original">Total Value: ₹1,65,700+</div>
+        <div class="vt-price">₹17,999</div>
+        <div class="vt-badge">92% OFF Today</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bonuses -->
+  <section class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">Enroll Today and Get These Bonuses FREE</h2>
+      <p class="section-sub">⏰ These bonuses expire in 48 hours</p>
+      <div class="countdown" id="bonusCountdown"></div>
+      <div class="bonuses-grid">
+        <div class="bonus-card"><div class="bonus-num">1</div><div class="bonus-info"><h4>Backtesting Masterclass</h4><span class="bonus-val">₹5,000</span><p>Walk-forward analysis, Monte Carlo simulation, optimization techniques (2 hours)</p></div></div>
+        <div class="bonus-card"><div class="bonus-num">2</div><div class="bonus-info"><h4>VPS Setup Guide + 1 Month Free VPS</h4><span class="bonus-val">₹2,500</span><p>Step-by-step VPS configuration. First month on us.</p></div></div>
+        <div class="bonus-card"><div class="bonus-num">3</div><div class="bonus-info"><h4>MT5 EA Code Library (50+ EAs)</h4><span class="bonus-val">₹10,000</span><p>Working, tested EAs. Modify and deploy immediately.</p></div></div>
+        <div class="bonus-card"><div class="bonus-num">4</div><div class="bonus-info"><h4>Broker Comparison & Setup Guide</h4><span class="bonus-val">₹1,500</span><p>Best brokers for algo trading compared.</p></div></div>
+        <div class="bonus-card"><div class="bonus-num">5</div><div class="bonus-info"><h4>30-Day Priority Email Support</h4><span class="bonus-val">₹8,000</span><p>Priority email support with &lt;24H response.</p></div></div>
+      </div>
+      <div class="bonus-total">Total Bonus Value: ₹27,000 — Yours FREE when you enroll today</div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section section-alt fade-in" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Choose Your Payment Plan</h2>
+      <p class="section-sub">Total course value: <s>₹1,65,700</s> &bull; 92% OFF Today Only</p>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <span class="price-badge">6-MONTH EMI</span>
+          <h3>6-Month EMI</h3>
+          <div class="price-amount">₹3,500</div>
+          <div class="price-period">/month &times; 6 months</div>
+          <ul class="price-features">
+            <li>₹3,500 &times; 6 months</li>
+            <li>5% processing fee</li>
+            <li>Immediate course access</li>
+            <li>All bonuses included</li>
+          </ul>
+          <a href="#" class="btn-secondary" onclick="openCourseRegister('emi6');return false;">CHOOSE 6-MONTH EMI</a>
+        </div>
+        <div class="price-card recommended">
+          <span class="price-badge">BEST VALUE - SAVE ₹2,000</span>
+          <h3>One-Time Payment</h3>
+          <div class="price-amount">₹17,999</div>
+          <div class="price-period"><s>₹19,999</s> &bull; Save ₹2,000</div>
+          <ul class="price-features">
+            <li>Pay once, lifetime access</li>
+            <li>Save ₹2,000 instantly</li>
+            <li>All bonuses included</li>
+            <li>No recurring charges</li>
+          </ul>
+          <a href="#" class="btn-primary" onclick="openCourseRegister('onetime');return false;">ENROLL NOW - ₹17,999</a>
+        </div>
+        <div class="price-card">
+          <span class="price-badge">MOST POPULAR</span>
+          <h3>3-Month EMI</h3>
+          <div class="price-amount">₹6,666</div>
+          <div class="price-period">/month &times; 3 months</div>
+          <ul class="price-features">
+            <li>₹6,666 &times; 3 months</li>
+            <li>0% interest, no hidden fees</li>
+            <li>Immediate course access</li>
+            <li>All bonuses included</li>
+          </ul>
+          <a href="#" class="btn-secondary" onclick="openCourseRegister('emi3');return false;">CHOOSE 3-MONTH EMI</a>
+        </div>
+      </div>
+
+      <div class="payment-methods">
+        <span class="pm-item">💳 Credit/Debit Card</span>
+        <span class="pm-item">📱 UPI</span>
+        <span class="pm-item">🏦 Net Banking</span>
+        <span class="pm-item">💰 Wallets</span>
+      </div>
+      <div class="security-badges">
+        <span>🔒 256-bit SSL Encryption</span>
+        <span>✓ Powered by Razorpay</span>
+      </div>
+      <div class="guarantee-box">
+        <h4>💯 30-Day Completion Guarantee</h4>
+        <p>Complete 50% of the course in 30 days and build 3 EAs. Not satisfied? We'll give you 3 FREE coaching calls + 6 months extended access + 30-day Elite trial. No monetary refund.</p>
+      </div>
+      <div class="urgency-text">⚡ 147 students enrolled in last 24 hours</div>
+    </div>
+  </section>
+
+  <!-- Student Results -->
+  <section class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">Real Results from Real Students</h2>
+      <p class="section-sub">Join 5,000+ people who've transformed their trading</p>
+      <div class="results-grid">
+        <div class="result-card">
+          <div class="r-avatar">RK</div>
+          <h3>Rajesh Kumar</h3>
+          <div class="r-loc">Bengaluru &bull; Software Engineer</div>
+          <div class="r-headline">Built 23 EAs in First Month, Now Earns ₹35K/Month Trading + ₹80K Freelancing</div>
+          <blockquote>"Zero coding background. Built my first profitable EA in Week 2. The freelancing income alone paid for the course 20x over."</blockquote>
+          <div class="result-metrics">
+            <div class="rm-item"><div class="rm-val">23</div><div class="rm-label">EAs Built</div></div>
+            <div class="rm-item"><div class="rm-val">₹35K</div><div class="rm-label">Trading/mo</div></div>
+            <div class="rm-item"><div class="rm-val">₹80K</div><div class="rm-label">Freelancing/mo</div></div>
+          </div>
+        </div>
+        <div class="result-card">
+          <div class="r-avatar">PS</div>
+          <h3>Priya Sharma</h3>
+          <div class="r-loc">Mumbai &bull; Marketing Manager</div>
+          <div class="r-headline">From Complete Beginner to Profitable Trader in 30 Days</div>
+          <blockquote>"No tech background, never coded. Built my first EA in the first lesson. Made back the course fee through trading in Month 1."</blockquote>
+          <div class="result-metrics">
+            <div class="rm-item"><div class="rm-val">45 min</div><div class="rm-label">First EA</div></div>
+            <div class="rm-item"><div class="rm-val">14 days</div><div class="rm-label">To Profit</div></div>
+            <div class="rm-item"><div class="rm-val">347%</div><div class="rm-label">ROI</div></div>
+          </div>
+        </div>
+        <div class="result-card">
+          <div class="r-avatar">AP</div>
+          <h3>Amit Patel</h3>
+          <div class="r-loc">Ahmedabad &bull; Former Accountant</div>
+          <div class="r-headline">Quit His Job, Now Makes ₹2.5L/Month Building EAs for Clients</div>
+          <blockquote>"Learned in 3 weeks, quit my job after 2 months. Now I build custom EAs for clients at ₹25K-50K each. Booked solid 3 months out."</blockquote>
+          <div class="result-metrics">
+            <div class="rm-item"><div class="rm-val">₹2.5L</div><div class="rm-label">Monthly</div></div>
+            <div class="rm-item"><div class="rm-val">5-8</div><div class="rm-label">Clients/mo</div></div>
+            <div class="rm-item"><div class="rm-val">₹25-50K</div><div class="rm-label">Per EA</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews-section">
+        <div class="review-card">
+          <div class="review-header"><div><span class="review-stars">⭐⭐⭐⭐⭐</span> <span class="review-author">Neha R.</span> <span class="review-verified">✓ Verified</span></div><span class="review-date">2 days ago</span></div>
+          <p>"Built 12 EAs in first month. 4 are profitable. Running them 24/7 on VPS. Passive income: ₹40K/month. Course paid for itself in Week 3."</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header"><div><span class="review-stars">⭐⭐⭐⭐⭐</span> <span class="review-author">Suresh K.</span> <span class="review-verified">✓ Verified</span></div><span class="review-date">1 week ago</span></div>
+          <p>"AlgoGPT alone is worth the price. I ask it questions daily. Saves me hours of research. Built 8 EAs so far. Highly recommend."</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header"><div><span class="review-stars">⭐⭐⭐⭐⭐</span> <span class="review-author">Kavita M.</span> <span class="review-verified">✓ Verified</span></div><span class="review-date">2 weeks ago</span></div>
+          <p>"Community is incredible. I posted my EA for review, got feedback from 15 people. Fixed it, now it's profitable. Best investment."</p>
+        </div>
+      </div>
+
+      <div class="trust-row">
+        <span class="tr-item">👥 5,000+ Students</span>
+        <span class="tr-item">⭐ 4.8/5 Rating</span>
+        <span class="tr-item">💬 1,247 Reviews</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt fade-in">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item"><button class="faq-q">Do I need coding experience? <span class="icon">+</span></button><div class="faq-a"><p>Absolutely not. 85% of our students have ZERO coding background. The entire course is built around using AI to generate code for you. If you can type and copy-paste, you can do this.</p></div></div>
+        <div class="faq-item"><button class="faq-q">What if I've never traded before? <span class="icon">+</span></button><div class="faq-a"><p>Perfect. We teach everything from scratch. Module 1 covers trading fundamentals. Many students start as complete beginners and become profitable within 60-90 days.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Which AI tools do I need? <span class="icon">+</span></button><div class="faq-a"><p>AI (free version works) or Claude. We teach both. Total cost to get started: ₹0. Paid versions are optional.</p></div></div>
+        <div class="faq-item"><button class="faq-q">What markets can I trade? <span class="icon">+</span></button><div class="faq-a"><p>All of them. Forex, Crypto (Bitcoin, altcoins), Indian stocks (Nifty, Bank Nifty), US markets (SPX, Nasdaq), Commodities (Gold, Oil). We cover every major market.</p></div></div>
+        <div class="faq-item"><button class="faq-q">How long until I build my first EA? <span class="icon">+</span></button><div class="faq-a"><p>Most students build their first working EA in Lesson 5 of Module 1 (typically within 45 minutes of starting). By end of Week 1, you'll have 3-5 EAs.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Do I need MetaTrader or special software? <span class="icon">+</span></button><div class="faq-a"><p>MetaTrader 5 (free) for Forex/Indices. TradingView (free) for stocks/crypto. We show you how to set up everything.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Can I really make money with this? <span class="icon">+</span></button><div class="faq-a"><p>Students make money 3 ways: Trading with EAs (₹10K-50K/month), freelancing (₹500-5K per EA), and selling EAs on marketplaces. Results vary based on effort.</p></div></div>
+        <div class="faq-item"><button class="faq-q">What's the refund policy? <span class="icon">+</span></button><div class="faq-a"><p>No monetary refunds. But we have a 30-Day Completion Guarantee: Complete 50% + build 3 EAs. Not satisfied? 3 FREE coaching calls + 6 months extended access.</p></div></div>
+        <div class="faq-item"><button class="faq-q">How long do I have access? <span class="icon">+</span></button><div class="faq-a"><p>Lifetime. Once you enroll, you have permanent access to all content + all future updates (free). Forever.</p></div></div>
+        <div class="faq-item"><button class="faq-q">What if I get stuck? <span class="icon">+</span></button><div class="faq-a"><p>Multiple support: AlgoGPT AI (50 Q/day), community (5,000+ members), monthly live Q&A, email support. You're never alone.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Is EMI really 0% interest? <span class="icon">+</span></button><div class="faq-a"><p>Yes! 3-month EMI has ZERO interest. ₹19,999 total split into 3 payments of ₹6,666. 6-month has 5% processing fee (₹21,000 total).</p></div></div>
+        <div class="faq-item"><button class="faq-q">When does the course start? <span class="icon">+</span></button><div class="faq-a"><p>Immediately after enrollment. Self-paced, not cohort-based. Instant access to everything. Start in 5 minutes.</p></div></div>
+        <div class="faq-item"><button class="faq-q">How is this different from other courses? <span class="icon">+</span></button><div class="faq-a"><p>Other courses teach coding (6-12 months). We use AI (45 minutes to first EA). Plus: app + AI assistant + community + signals + copy trading. Complete ecosystem.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Can I use this for prop firm challenges? <span class="icon">+</span></button><div class="faq-a"><p>Yes. Many students use EAs for FTMO and other prop firms. Module 8 covers specific strategies for prop trading.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Will this work with my broker? <span class="icon">+</span></button><div class="faq-a"><p>If your broker supports MT5 or TradingView, yes. 99% of brokers do. We include a broker comparison guide.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta fade-in">
+    <div class="container">
+      <h2>Your Algo Trading Journey Starts Today</h2>
+      <p class="section-sub">Join 5,000+ students building profitable trading bots with AI</p>
+
+      <div class="comparison">
+        <div class="comp-col trad">
+          <h4>❌ Traditional Path</h4>
+          <ul>
+            <li>Hire developer: ₹5-10 lakh per EA</li>
+            <li>Wait 3-6 months for delivery</li>
+            <li>Or learn to code (2+ years)</li>
+            <li>Limited to your own strategies</li>
+            <li>Expensive to iterate and test</li>
+          </ul>
+        </div>
+        <div class="comp-col ai">
+          <h4>✅ AI-Powered Path</h4>
+          <ul>
+            <li>Build EAs yourself: ₹17,999 one-time</li>
+            <li>First EA in 45 minutes</li>
+            <li>Zero coding required</li>
+            <li>Build unlimited EAs</li>
+            <li>Test 10 strategies/week</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="urgency-items">
+        <span>⚡ 147 enrolled in 24 hours</span>
+        <span>⏰ Bonuses expire in 48 hours</span>
+        <span>🎁 ₹67,200 in bonuses included</span>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="#" class="btn-primary" onclick="openCourseRegister('onetime');return false;">ENROLL NOW - ₹17,999</a>
+        <a href="#" class="btn-secondary" onclick="openCourseRegister('emi3');return false;">Or choose 3-month EMI (₹6,666/month)</a>
+      </div>
+
+      <div class="final-guarantee">💯 30-Day Completion Guarantee &bull; Lifetime Access &bull; No Risk</div>
+      <div class="final-closing">See you inside the course,<br><strong>Shamique Hussain</strong></div>
+      <div class="final-ps">P.S. - Every day you wait is another day you're leaving money on the table. Students who started 3 months ago are already freelancing at ₹25K-50K per EA. Start today.</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-brand">QUANTUM ALGO</div>
+    <div class="footer-links">
+      <a href="#" onclick="document.getElementById('privacyModal').style.display='flex';return false;">Privacy Policy</a>
+      <a href="#" onclick="document.getElementById('termsModal').style.display='flex';return false;">Terms & Conditions</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Quantum Algo. All rights reserved.</div>
+    <div class="footer-disclaimer">DISCLAIMER: Trading involves risk. Past performance does not guarantee future results. We provide education, not investment advice. Individual results vary.</div>
+  </footer>
+
+  <!-- Sticky Bar -->
+  <div class="sticky-bar" id="stickyBar">
+    <span>AI Algo Trading Mastery &bull; ₹17,999 (Save ₹2,000)</span>
+    <a href="#" class="btn-enroll" onclick="openCourseRegister('onetime');return false;">ENROLL NOW</a>
+  </div>
+
+  <!-- Privacy Policy Modal -->
+  <div id="privacyModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;padding:20px;">
+    <div style="background:#111;border:1px solid #222;border-radius:12px;max-width:800px;width:100%;max-height:90vh;overflow-y:auto;padding:40px;position:relative;color:#d1d5dc;font-size:15px;line-height:1.8;">
+      <button onclick="document.getElementById('privacyModal').style.display='none'" style="position:sticky;top:0;float:right;background:#222;border:1px solid #333;color:#fff;font-size:20px;cursor:pointer;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;z-index:1;">&times;</button>
+      <h2 style="color:#fff;font-size:24px;margin-bottom:8px;">Privacy Policy</h2>
+      <p style="color:#99a1af;font-size:13px;margin-bottom:32px;">Last updated: February 24, 2026</p>
+      <p>Quantum Algo ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website, enroll in our courses, or use our services.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">1. Information We Collect</h3>
+      <p>We collect the following personal information when you enroll in our courses or services:</p>
+      <ul style="padding-left:24px;margin-bottom:12px;">
+        <li><strong>Name</strong> - Your first name to personalize our communications</li>
+        <li><strong>Email Address</strong> - To send course details, confirmation emails, and related updates</li>
+        <li><strong>WhatsApp Number</strong> - To send course links and important reminders</li>
+        <li><strong>Trading Experience Level</strong> - To tailor our training content to your needs</li>
+        <li><strong>Payment Information</strong> - Processed securely through Razorpay (we do not store card details)</li>
+      </ul>
+      <p>We also automatically collect certain technical information including your IP address, browser type, and device information through standard web server logs.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">2. How We Use Your Information</h3>
+      <ul style="padding-left:24px;margin-bottom:12px;">
+        <li>To enroll you in our courses and provide access to course materials</li>
+        <li>To send confirmation emails with access links and details</li>
+        <li>To send reminders about upcoming sessions via email or WhatsApp</li>
+        <li>To communicate updates about our courses, workshops, and educational content</li>
+        <li>To improve our services and tailor content to our audience</li>
+        <li>To respond to your inquiries and provide customer support</li>
+      </ul>
+      <h3 style="color:#fff;margin:28px 0 10px;">3. Data Storage and Security</h3>
+      <p>Your registration data is stored securely in Google Sheets and processed through Google Apps Script. We use industry-standard security measures to protect your personal information from unauthorized access, alteration, or destruction.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">4. Third-Party Services</h3>
+      <p>We use the following third-party services:</p>
+      <ul style="padding-left:24px;margin-bottom:12px;">
+        <li><strong>Google Workspace</strong> - For data storage, email sending, and course management</li>
+        <li><strong>Razorpay</strong> - For secure payment processing</li>
+        <li><strong>Vercel</strong> - For website hosting</li>
+      </ul>
+      <p>We do not sell, trade, or rent your personal information to any third parties.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">5. Email Communications</h3>
+      <p>By enrolling in our course, you consent to receiving confirmation emails, reminders, and follow-up emails with resources. You can opt out of promotional emails at any time by replying with "UNSUBSCRIBE" or contacting us directly.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">6. Your Rights</h3>
+      <ul style="padding-left:24px;margin-bottom:12px;">
+        <li><strong>Access</strong> - Request a copy of the personal data we hold about you</li>
+        <li><strong>Correction</strong> - Request correction of inaccurate personal data</li>
+        <li><strong>Deletion</strong> - Request deletion of your personal data from our records</li>
+        <li><strong>Opt-out</strong> - Unsubscribe from promotional communications at any time</li>
+      </ul>
+      <h3 style="color:#fff;margin:28px 0 10px;">7. Cookies</h3>
+      <p>Our website may use minimal cookies for basic functionality. We do not use tracking cookies or third-party advertising cookies.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">8. Children's Privacy</h3>
+      <p>Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">9. Changes to This Policy</h3>
+      <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">10. Contact Us</h3>
+      <p><strong>Company:</strong> Quantum Algo<br><strong>Founder:</strong> Shamique Hussain<br><strong>Email:</strong> support@quantumalgo.in</p>
+    </div>
+  </div>
+
+  <!-- Terms & Conditions Modal -->
+  <div id="termsModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;padding:20px;">
+    <div style="background:#111;border:1px solid #222;border-radius:12px;max-width:800px;width:100%;max-height:90vh;overflow-y:auto;padding:40px;position:relative;color:#d1d5dc;font-size:15px;line-height:1.8;">
+      <button onclick="document.getElementById('termsModal').style.display='none'" style="position:sticky;top:0;float:right;background:#222;border:1px solid #333;color:#fff;font-size:20px;cursor:pointer;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;z-index:1;">&times;</button>
+      <h2 style="color:#fff;font-size:24px;margin-bottom:8px;">Terms &amp; Conditions</h2>
+      <p style="color:#99a1af;font-size:13px;margin-bottom:32px;">Last updated: February 24, 2026</p>
+      <p>Welcome to Quantum Algo. By accessing our website, enrolling in our courses, or using any of our services, you agree to be bound by these Terms &amp; Conditions.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">1. About Our Services</h3>
+      <p>Quantum Algo provides educational content related to algorithmic trading and AI-powered trading tools, including online courses and workshops, free and paid live training sessions, and educational resources about building Expert Advisors (EAs) using AI. Our services are strictly educational in nature. We do not provide investment advice, portfolio management, or financial advisory services.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">2. Eligibility</h3>
+      <p>By using our services, you confirm that you are at least 18 years of age, have the legal capacity to enter into these terms, and will provide accurate and truthful information when registering.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">3. Course Enrollment</h3>
+      <p>When you enroll in our course, you agree to provide accurate personal information, receive confirmation emails and reminders, not share course materials or access links with non-enrolled individuals, and conduct yourself respectfully during live sessions.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">4. Intellectual Property</h3>
+      <p>All content provided through our courses, workshops, and website is the intellectual property of Quantum Algo and Shamique Hussain. You may not record, reproduce, redistribute, resell, or claim our content as your own.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">5. Trading &amp; Financial Disclaimer</h3>
+      <p><strong>IMPORTANT:</strong> Trading in financial markets involves substantial risk of loss and is not suitable for every investor. The content provided by Quantum Algo is for educational purposes only.</p>
+      <ul style="padding-left:24px;margin-bottom:12px;">
+        <li>We do NOT provide investment advice or recommend specific trades</li>
+        <li>Past performance does NOT guarantee future results</li>
+        <li>Any profit figures mentioned are for illustrative purposes only</li>
+        <li>You are solely responsible for your own trading decisions and any financial losses</li>
+        <li>Consult a qualified financial advisor before making investment decisions</li>
+      </ul>
+      <h3 style="color:#fff;margin:28px 0 10px;">6. No Guarantees</h3>
+      <p>We make no guarantees regarding specific financial outcomes, performance of any trading algorithm, accuracy of information, or uninterrupted access to our services. Results vary based on individual effort, market conditions, capital, and many other factors.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">7. Paid Services &amp; Refund Policy</h3>
+      <p>For paid courses and workshops: all fees are clearly stated before purchase. Refund requests must be made within 7 days of purchase. Refunds are not available once you have accessed more than 30% of the course content.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">8. User Conduct</h3>
+      <p>You agree not to provide false information, disrupt sessions, attempt unauthorized access, use our services for illegal purposes, or harass other participants or our team.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">9. Limitation of Liability</h3>
+      <p>To the fullest extent permitted by law, Quantum Algo shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or trading capital. Our total liability shall not exceed the amount you paid us in the 12 months preceding the claim, or INR 5,000, whichever is less.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">10. Governing Law</h3>
+      <p>These Terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in India.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">11. Contact Us</h3>
+      <p><strong>Company:</strong> Quantum Algo<br><strong>Founder:</strong> Shamique Hussain<br><strong>Email:</strong> support@quantumalgo.in</p>
+    </div>
+  </div>
+
+  <!-- Course Registration Modal -->
+  <div id="courseRegModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;padding:20px;">
+    <div class="reg-modal">
+      <button class="reg-close" onclick="document.getElementById('courseRegModal').style.display='none'">&times;</button>
+      <h2>Enroll in AI Algo Trading Mastery</h2>
+      <div class="reg-details" id="courseRegPlanInfo"></div>
+      <form id="courseForm" onsubmit="return handleCourseSubmit(event)">
+        <input type="hidden" name="plan" id="courseSelectedPlan" value="onetime">
+        <div class="reg-form-group">
+          <label>First Name *</label>
+          <input type="text" name="first_name" placeholder="Enter your first name" required autocomplete="given-name">
+        </div>
+        <div class="reg-form-group">
+          <label>Email Address *</label>
+          <input type="email" name="email" placeholder="your@email.com" required autocomplete="email">
+        </div>
+        <div class="reg-form-group">
+          <label>WhatsApp Number *</label>
+          <input type="tel" name="phone" placeholder="+91 98765 43210" required autocomplete="tel">
+          <span class="reg-helper">We'll send course access details here</span>
+        </div>
+        <div class="reg-form-group">
+          <label>Trading Experience (Optional)</label>
+          <select name="experience">
+            <option value="">Select...</option>
+            <option value="beginner">Complete Beginner</option>
+            <option value="some">Some Experience (&lt; 1 year)</option>
+            <option value="intermediate">Intermediate (1-3 years)</option>
+            <option value="advanced">Advanced (3+ years)</option>
+          </select>
+        </div>
+        <button type="submit" class="reg-submit" id="courseSubmitBtn">ENROLL NOW &rarr;</button>
+      </form>
+      <p class="reg-privacy">🔒 Your information is safe. We hate spam too.</p>
+      <div class="reg-badges">
+        <span>🔒 256-bit SSL</span>
+        <span>✅ Powered by Razorpay</span>
+        <span>💳 Cards, UPI, Net Banking</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="courseToast" style="position:fixed;bottom:80px;left:24px;background:#1a1a1a;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:14px 20px;box-shadow:0 10px 30px rgba(0,0,0,0.4);display:flex;align-items:center;gap:10px;z-index:998;transform:translateX(-120%);transition:transform 0.5s;max-width:350px;font-size:0.82rem;color:#d1d5dc;">
+    <span>👤</span>
+    <div id="courseToastText"></div>
+  </div>
+
+  <script>
+    // ==============================
+    // CONFIGURATION
+    // ==============================
+    var RAZORPAY_KEY_ID = 'rzp_live_SKKgX5sZvc4yIc';
+    var COURSE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzUF12cjzg5gHWa7rwDgAEgvtvWdpLlBf4bRltxJEtsNK67uNPeJda_tH_BD6IZJY0S/exec';
+
+    // Plan details
+    var PLANS = {
+      onetime: { name: 'One-Time Payment', amount: 1799900, display: '₹17,999', description: 'Pay once, lifetime access. Save ₹2,000.' },
+      emi3:    { name: '3-Month EMI',       amount: 666600,  display: '₹6,666',  description: '₹6,666/month × 3 months. 0% interest.' },
+      emi6:    { name: '6-Month EMI',       amount: 350000,  display: '₹3,500',  description: '₹3,500/month × 6 months. 5% processing fee.' }
+    };
+
+    var selectedPlan = 'onetime';
+
+    // Open modal with selected plan
+    function openCourseRegister(plan) {
+      selectedPlan = plan || 'onetime';
+      var p = PLANS[selectedPlan];
+      document.getElementById('courseSelectedPlan').value = selectedPlan;
+      document.getElementById('courseRegPlanInfo').innerHTML = '📚 ' + p.name + ' &bull; ' + p.display + '<br><span style="font-size:0.78rem;color:#6B7280;">' + p.description + '</span>';
+      document.getElementById('courseSubmitBtn').innerHTML = 'PAY ' + p.display + ' &rarr;';
+      document.getElementById('courseRegModal').style.display = 'flex';
+    }
+
+    // Close modal on backdrop click
+    document.getElementById('courseRegModal').addEventListener('click', function(e) {
+      if (e.target === this) this.style.display = 'none';
+    });
+
+    // ==============================
+    // Razorpay Payment Flow
+    // ==============================
+    function handleCourseSubmit(e) {
+      e.preventDefault();
+      var form = document.getElementById('courseForm');
+      var btn = document.getElementById('courseSubmitBtn');
+      var plan = PLANS[selectedPlan];
+      var data = {
+        first_name: form.first_name.value.trim(),
+        email: form.email.value.trim(),
+        phone: form.phone.value.trim(),
+        experience: form.experience.value
+      };
+
+      if (!data.first_name || !data.email || !data.phone) {
+        alert('Please fill in all required fields.');
+        return false;
+      }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) {
+        alert('Please enter a valid email address.');
+        return false;
+      }
+
+      var originalText = btn.innerHTML;
+      btn.innerHTML = 'Creating order...';
+      btn.disabled = true;
+      btn.style.opacity = '0.7';
+
+      // Step 1: Create order
+      fetch(COURSE_SCRIPT_URL, {
+        method: 'POST',
+        body: JSON.stringify({
+          action: 'create_order',
+          source: 'course',
+          plan: selectedPlan,
+          plan_name: plan.name,
+          amount: plan.amount,
+          first_name: data.first_name,
+          email: data.email,
+          phone: data.phone,
+          experience: data.experience
+        })
+      })
+      .then(function(res) { return res.json(); })
+      .then(function(result) {
+        if (!result.success || !result.order_id) {
+          throw new Error(result.error || 'Failed to create order');
+        }
+
+        btn.innerHTML = 'Processing...';
+
+        // Step 2: Open Razorpay
+        var options = {
+          key: RAZORPAY_KEY_ID,
+          amount: result.amount,
+          currency: 'INR',
+          name: 'Quantum Algo',
+          description: 'AI Algo Trading Mastery - ' + plan.name,
+          order_id: result.order_id,
+          prefill: { name: data.first_name, email: data.email, contact: data.phone },
+          theme: { color: '#0052B7' },
+          handler: function(response) {
+            btn.innerHTML = 'Verifying payment...';
+            btn.disabled = true;
+            btn.style.opacity = '0.7';
+
+            // Step 3: Verify payment
+            fetch(COURSE_SCRIPT_URL, {
+              method: 'POST',
+              body: JSON.stringify({
+                action: 'verify_payment',
+                source: 'course',
+                plan: selectedPlan,
+                plan_name: plan.name,
+                razorpay_order_id: response.razorpay_order_id,
+                razorpay_payment_id: response.razorpay_payment_id,
+                razorpay_signature: response.razorpay_signature,
+                first_name: data.first_name,
+                email: data.email,
+                phone: data.phone,
+                experience: data.experience
+              })
+            })
+            .then(function(res) { return res.json(); })
+            .then(function(verifyResult) {
+              if (verifyResult.success) {
+                var t = document.getElementById('courseToast');
+                document.getElementById('courseToastText').innerHTML = '✅ <strong>' + data.first_name + '</strong>, enrollment confirmed! Redirecting...';
+                t.style.transform = 'translateX(0)';
+                form.reset();
+                document.getElementById('courseRegModal').style.display = 'none';
+                setTimeout(function() {
+                  window.location.href = '/course-thankyou.html?name=' + encodeURIComponent(data.first_name) + '&plan=' + encodeURIComponent(plan.name);
+                }, 1500);
+              } else {
+                throw new Error(verifyResult.error || 'Verification failed');
+              }
+            })
+            .catch(function(err) {
+              alert('Payment was received but verification failed. Please contact support@quantumalgo.in with your payment ID: ' + response.razorpay_payment_id);
+              btn.innerHTML = originalText;
+              btn.disabled = false;
+              btn.style.opacity = '1';
+            });
+          },
+          modal: {
+            ondismiss: function() {
+              btn.innerHTML = originalText;
+              btn.disabled = false;
+              btn.style.opacity = '1';
+            }
+          }
+        };
+
+        var rzp = new Razorpay(options);
+        rzp.on('payment.failed', function(response) {
+          alert('Payment failed: ' + response.error.description + '. Please try again.');
+          btn.innerHTML = originalText;
+          btn.disabled = false;
+          btn.style.opacity = '1';
+        });
+        rzp.open();
+      })
+      .catch(function(err) {
+        alert('Could not create order. Please try again. (' + err.message + ')');
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+        btn.style.opacity = '1';
+      });
+
+      return false;
+    }
+
+    // Curriculum Accordion
+    document.querySelectorAll('.module-header').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        document.querySelectorAll('.module-item').forEach(i => { if (i !== item) i.classList.remove('active'); });
+        item.classList.toggle('active');
+      });
+    });
+
+    // FAQ Accordion
+    document.querySelectorAll('.faq-q').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        document.querySelectorAll('.faq-item').forEach(i => { if (i !== item) i.classList.remove('active'); });
+        item.classList.toggle('active');
+      });
+    });
+
+    // Fade-in on scroll
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // Sticky bar on scroll
+    window.addEventListener('scroll', () => {
+      const pct = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+      document.getElementById('stickyBar').classList.toggle('visible', pct > 30);
+    });
+
+    // Countdown timer (48 hours)
+    function startCountdown(id, hours) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      let stored = localStorage.getItem('course_countdown_end');
+      if (!stored) { stored = Date.now() + hours * 3600000; localStorage.setItem('course_countdown_end', stored); }
+      const end = parseInt(stored);
+      function update() {
+        const diff = Math.max(0, end - Date.now());
+        const h = Math.floor(diff / 3600000);
+        const m = Math.floor((diff % 3600000) / 60000);
+        const s = Math.floor((diff % 60000) / 1000);
+        el.innerHTML = `<div class="cd-unit"><div class="cd-num">${String(h).padStart(2,'0')}</div><div class="cd-label">Hours</div></div><div class="cd-unit"><div class="cd-num">${String(m).padStart(2,'0')}</div><div class="cd-label">Min</div></div><div class="cd-unit"><div class="cd-num">${String(s).padStart(2,'0')}</div><div class="cd-label">Sec</div></div>`;
+        if (diff > 0) setTimeout(update, 1000);
+      }
+      update();
+    }
+    startCountdown('bonusCountdown', 48);
+  </script>
+</body>
+</html>
